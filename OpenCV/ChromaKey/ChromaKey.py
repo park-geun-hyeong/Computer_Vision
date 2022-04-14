@@ -12,8 +12,8 @@ def show_video_info(cap):
 
 if __name__ == "__main__":
 
-    cap1 = cv2.VideoCapture('../data_0324/lec7_raining.mp4')
-    cap2 = cv2.VideoCapture('../data_0324/lec7_woman.mp4')
+    cap1 = cv2.VideoCapture('./lec7_raining.mp4')
+    cap2 = cv2.VideoCapture('./lec7_woman.mp4')
 
     if not cap1.isOpened() or not cap2.isOpened():
         print("check videos are exits")
@@ -27,10 +27,10 @@ if __name__ == "__main__":
     fourcc = cv2.VideoWriter_fourcc(*'DIVX')
     delay = round(1./ fps1 * 1000)
 
-    if not os.path.exists('../data_0324/result/'):
-        os.mkdir('../data_0324/result/')
+    if not os.path.exists('./result/'):
+        os.mkdir('./result/')
 
-    out = cv2.VideoWriter('../data_0324/result/hw1_201716175.avi', fourcc, fps1, (frame_width1, frame_height1))
+    out = cv2.VideoWriter('./result/hw1_201716175.avi', fourcc, fps1, (frame_width1, frame_height1))
     if not out.isOpened():
         print("videowriter error")
         cap1.release()
