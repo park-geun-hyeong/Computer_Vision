@@ -3,8 +3,8 @@ import cv2
 import sys
 
 if __name__ == "__main__":
-    path = './vtest.avi'
-    cap = cv2.VideoCapture(path + "pedestrians.avi")
+
+    cap = cv2.VideoCapture("./vtest.avi")
     width = int(cap.get(cv2.CAP_PROP_FRAME_WIDTH))
     height = int(cap.get(cv2.CAP_PROP_FRAME_HEIGHT))
 
