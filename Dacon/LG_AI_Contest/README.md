@@ -1,5 +1,6 @@
-## 농업 환경 변화에 따른작물 병해 진단 AI 경진대회
-https://dacon.io/competitions/official/235870/overview/description
+## 농업 환경 변화에 따른작물 병해 진단 AI 경진대회([URL](https://dacon.io/competitions/official/235870/overview/description))
+- Augmentation 과정을 확인하고 싶다면 [Notion](https://prairie-mink-e3f.notion.site/Dacon-AI-f1e9f7f09e904d5aae79551f0cb6af01)을 확인해주세요.
+
 
 ### 1. 배경
 안녕하세요 여러분! 🙌 농업 환경 변화에 따른 작물 병해 진단 AI 경진대회에 오신 것을 환영합니다.
